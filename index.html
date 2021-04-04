@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Binary Calculator </title>
+	 <!-- CSS -->
+	<link rel="stylesheet" href="src/style.css" />
+</head>
+<!--/*---------------------
+Authorized::Forhad Reza
+-----------*/-->
+<body>
+<div id="main_wrapper">
+	<div id="content">
+	<p class="title">| Binary Calculator |</h4>
+	<hr /> <div id="display"></div> <hr />  
+
+		<div class="section-1">
+		  <button class="digit" id="btn0" onclick="key('0'),s.play()">0</button>
+		  <button class="digit" id="btn1" onclick="key('1'),s.play()">1</button>
+		  <button class="option" id="btnClr" onclick="clr(),s.play()">Clr</button>
+		  <button class="option" id="btnMode" onclick="#">&#187;</button>
+		</div>
+		<div class="section-2">
+		  <button id="btnSum" class="operator" onclick="assignOperator('+'),s.play()">+</button>
+		  <button id="btnSub" class="operator" onclick="assignOperator('-'),s.play()">-</button>
+		  <button id="btnMul" class="operator" onclick="assignOperator('*'),s.play()">*</button>
+		  <button id="btnDiv" class="operator" onclick="assignOperator('/'),s.play()">/</button>
+		  <button id="btnEql1" onclick="Equal(),s.play()">=</button>
+		</div>
+	</div>
+	<!--/*---------------------
+Authorized::Forhad Reza
+-----------*/-->
+	<!-- Footer -->
+	<footer>
+		<div id="footer">
+			<p>&copy All Right Reserved By <a href="http://rezaweb.ml/" target="_blank">  Next_Digit </a></p>
+		</div>
+	</footer>
+</div>
+	<!-- JavaScript -->
+	<script src="src/main.js"></script>	
+</body>
+</html>
+
+
